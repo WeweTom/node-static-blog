@@ -1,0 +1,27 @@
+* overview
+** json作为数据源
+** 分页
+** 相关推荐
+** 动态分类
+   1. 按年份
+   2. 按tag
+* 元素抽取
+  1. 遍历目录，得到一份数据A
+     #+BEGIN_SRC js
+       [
+           {
+               datetime:1232345,
+               tags:["blog","随笔"],
+               title:"blog的衰落",
+               author:"猫",
+               lasttime:2342423, // 上次编辑的时间
+           }
+       ]     
+     #+END_SRC
+  2. 如果之前有像A这样的一份数据，读取出来比较，哪些是新增的
+     - build新增的markdown/org文件
+     - build策略：只有新增的才build；可以强制build所有
+  3. build单个markdown/org文件
+     1) 拆分页头配置文件部分和blog主体
+     2) blog主体渲染到模板layout，默认layout路径为layouts/default.html
+     3) 渲染layout和前端浏览器中的渲染用同一份数据

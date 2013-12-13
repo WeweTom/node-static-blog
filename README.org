@@ -1,0 +1,5 @@
+* about
+  node-static-blog is a nodejs based blog engine 
+
+  jekyll is good , but it is Ruby driven , so I roll my own one.
+
