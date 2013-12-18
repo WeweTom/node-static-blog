@@ -1,0 +1,11 @@
+{
+  "name": "node-static-blog",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha-phantomjs test/index.html -t 40000 -R dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:WeweTom/node-static-blog.git"
+  }
+}
