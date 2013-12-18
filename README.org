@@ -1,3 +1,4 @@
+* [![Build Status](https://travis-ci.org/WeweTom/node-static-blog.png?branch=master)](https://travis-ci.org/WeweTom/node-static-blog)
 * about
   node-static-blog is a nodejs based blog engine 
 
