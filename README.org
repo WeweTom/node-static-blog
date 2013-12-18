@@ -1,6 +1,6 @@
-* [![Build Status](https://travis-ci.org/WeweTom/node-static-blog.png?branch=master)](https://travis-ci.org/WeweTom/node-static-blog)
-* about
-  node-static-blog is a nodejs based blog engine 
-
-  jekyll is good , but it is Ruby driven , so I roll my own one.
+[[https://travis-ci.org/WeweTom/node-static-blog.png?branch%3Dmaster][https://travis-ci.org/WeweTom/node-static-blog.png?branch=master]]
+*** about
+    node-static-blog is a nodejs based blog engine 
+    
+    jekyll is good , but it is Ruby driven , so I roll my own one.
 
